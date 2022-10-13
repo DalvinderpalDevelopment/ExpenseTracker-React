@@ -1,0 +1,7 @@
+.header {
+    @apply bg-gradient-to-r from-green-400 to-blue-500 p-8 md:p-16 drop-shadow-2xl;
+}
+
+.header-logo {
+    @apply w-[320px];
+}

@@ -1,10 +1,15 @@
-import logo from './assets/images/expensetracker-logo.svg';
-import './assets/css/App.css';
+import "./assets/css/App.css";
+
+import Header from "./components/UI/header";
+import Footer from "./components/UI/footer";
 
 const App = () => {
-  return(
-    <div></div>
+  return (
+    <>
+      <Header />
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
