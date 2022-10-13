@@ -1,0 +1,23 @@
+.footer {
+    @apply bg-gray-800 text-white p-14 md:p-24 text-lg sticky bottom-0 left-0 right-0;
+}
+
+.footer .footer-social {
+    @apply flex justify-center items-center;
+}
+
+.footer .footer-text p {
+    @apply sm:block md:flex md:justify-center items-center text-center;
+}
+
+.footer .footer-text span {
+    @apply flex justify-center py-4 md:py-0;
+}
+
+.footer .footer-text svg {
+    @apply mx-4;
+}
+
+.footer .footer-social a {
+    @apply text-xl px-4 py-8;
+}

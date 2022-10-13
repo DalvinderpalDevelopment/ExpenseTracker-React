@@ -1,0 +1,7 @@
+.expenses {
+    @apply m-8 md:m-16;
+}
+
+.expenses h2 {
+    @apply text-lg font-bold mb-6;
+}

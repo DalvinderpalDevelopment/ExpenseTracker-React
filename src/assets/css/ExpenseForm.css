@@ -1,0 +1,35 @@
+.expense-form {
+    @apply bg-sky-700 p-8 px-4 m-8 md:m-16 rounded-2xl drop-shadow-lg;
+}
+
+.expense-form-input {
+    @apply block md:flex;
+}
+
+.expense-form-buttons {
+    @apply w-full pt-5 px-2 md:px-4 flex items-center md:justify-end justify-center;
+}
+
+.expense-form-buttons button {
+    @apply p-5 mx-1 rounded-lg hover:drop-shadow-lg text-white bg-sky-900;
+}
+
+.expense-form-buttons .button-cancel {
+    @apply hover:bg-red-800;
+}
+
+.expense-form-buttons .button-submit {
+    @apply hover:bg-green-800;
+}
+
+.form-input {
+    @apply w-full md:w-[33%] flex text-white pb-4 md:pb-0;
+}
+
+.form-input label {
+    @apply text-right;
+}
+
+.form-input input {
+    @apply w-full p-2 rounded-lg drop-shadow-lg mx-4 text-black;
+}

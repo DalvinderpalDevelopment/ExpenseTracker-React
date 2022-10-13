@@ -1,0 +1,15 @@
+.expense-item {
+    @apply w-full block lg:flex justify-center bg-gray-500 drop-shadow-2xl p-8 mb-4 text-white rounded-2xl;
+}
+
+.expense-item .expense-item-date {
+    @apply bg-gray-800 w-full lg:w-[20%] text-center p-8 rounded-2xl border-4 border-sky-800 my-4 lg:my-4;
+}
+
+.expense-item .expense-item-name {
+    @apply text-xl p-8 rounded-2xl text-center lg:text-left w-full lg:w-[40%] border-4 border-sky-800 bg-white text-black mx-0 lg:mx-4 my-4 lg:my-4;
+}
+
+.expense-item .expense-item-amount {
+    @apply text-[38px] w-full lg:w-[20%] text-center p-8 rounded-2xl border-4 border-sky-800 bg-sky-800 my-4 lg:my-4;
+}
