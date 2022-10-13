@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Installing Node Module dependencies for project
+
+When you have downloaded the project and need to install node modules that the project depends on please run the command below in command-line:
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
