@@ -2,13 +2,13 @@ import "./assets/css/App.css";
 
 import Header from "./components/UI/Header";
 import Footer from "./components/UI/Footer";
-import Form from "./components/Form/Form";
+import Expenses from "./components/Expenses/Expenses";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Form />
+      <Expenses />
       <Footer />
     </>
   );
