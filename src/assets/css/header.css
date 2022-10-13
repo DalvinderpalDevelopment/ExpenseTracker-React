@@ -1,7 +1,11 @@
 .header {
-    @apply bg-gradient-to-r from-green-400 to-blue-500 p-8 md:p-16 drop-shadow-2xl;
+    @apply bg-gradient-to-r from-green-400 to-sky-700 p-8 px-4 md:p-16 drop-shadow-2xl;
 }
 
 .header-logo {
-    @apply w-[320px];
+    @apply w-[300px];
+}
+
+.header-logo img {
+    @apply w-full;
 }

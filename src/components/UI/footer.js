@@ -1,6 +1,6 @@
 import React from "react";
 import { FaEnvelope, FaGithub, FaHeart, FaLinkedin } from "react-icons/fa";
-import "../../assets/css/footer.css";
+import "../../assets/css/Footer.css";
 
 const date = Date.now();
 const dateObj = new Date(date);

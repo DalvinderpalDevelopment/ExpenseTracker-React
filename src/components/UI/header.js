@@ -1,7 +1,7 @@
 import logo from "../../assets/images/expensetracker-logo.svg";
 import React from "react";
 
-import "../../assets/css/header.css";
+import "../../assets/css/Header.css";
 
 const Header = () => {
   return (
