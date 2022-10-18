@@ -1,4 +1,4 @@
-import logo from "../../assets/images/expensetracker-logo.svg";
+import logo from "../../assets/images/expensetracker-logo.png";
 import React from "react";
 
 import "../../assets/css/Header.css";
